@@ -1,0 +1,44 @@
+.add-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo:last-child {
+  border-bottom: none;
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.todo button:first-of-type {
+  color: #28a745;
+}
+
+.todo button:last-of-type {
+  color: #dc3545;
+}
