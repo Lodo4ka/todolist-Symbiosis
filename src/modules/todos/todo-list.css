@@ -1,0 +1,12 @@
+.todo-list {
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.todo-list h1 {
+  margin-bottom: 20px;
+}
+
